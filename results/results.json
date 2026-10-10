@@ -1,0 +1,52 @@
+{
+  "dataset": "2026-10-05",
+  "scenarios": {
+    "data": {
+      "status": "not_run"
+    },
+    "index": {
+      "status": "not_run"
+    },
+    "purchase": {
+      "status": "not_run"
+    },
+    "failover": {
+      "status": "not_run"
+    },
+    "reset": {
+      "status": "passed",
+      "startedAt": {
+        "$date": {
+          "$numberLong": "1791654560586"
+        }
+      },
+      "solutionHash": "5eb43e0a0f51f4c83dfcaa9687f0aa1c6d12d9e4cefe098b136aea3e302609fe",
+      "checks": [
+        "fixtures loaded"
+      ],
+      "artifacts": {
+        "reset": {
+          "datasetVersion": "2026-10-05",
+          "mode": "data",
+          "products": {
+            "$numberInt": "6"
+          },
+          "orders": {
+            "$numberInt": "35"
+          }
+        }
+      },
+      "server": "8.0.30",
+      "finishedAt": {
+        "$date": {
+          "$numberLong": "1791654560634"
+        }
+      }
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1791654560634"
+    }
+  }
+}
